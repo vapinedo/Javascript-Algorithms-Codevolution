@@ -4,3 +4,4 @@
 2. Fibonacci Serie
 3. Factorial
 4. Prime number
+5. Power of Two
