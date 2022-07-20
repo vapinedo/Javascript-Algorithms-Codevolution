@@ -1,8 +1,9 @@
 # Algorithms :: Codevolution
 
-1. Big O Notation
-2. Fibonacci Serie
-3. Factorial
-4. Prime number
-5. Power of Two
-6. Recursive Fibonacci
+Solving some algorithms, then try to calculate the Big-O complexity
+
+1. Fibonacci Serie
+2. Factorial
+3. Prime number
+4. Power of Two
+5. Recursive Fibonacci
