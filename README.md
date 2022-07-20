@@ -5,3 +5,4 @@
 3. Factorial
 4. Prime number
 5. Power of Two
+6. Recursive Fibonacci
