@@ -10,3 +10,7 @@ Solving some algorithms, then try to calculate the Big-O complexity
 4. Power of Two
 5. Recursive Fibonacci
 5. Recursive Factorial
+
+## Search Algorithms
+
+1. 
