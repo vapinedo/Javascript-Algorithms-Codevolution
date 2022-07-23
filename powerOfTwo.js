@@ -1,4 +1,4 @@
-// Big-O = O(1)
+// Big-O = O(1) :: Constant time complexity
 const isPowerOfTwoBitwise = (n) => {
     if (n < 1) { return false; }
     return (n & (n-1)) === 0;

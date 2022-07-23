@@ -1,4 +1,4 @@
-// Big-O = O(n)
+// Big-O = O(n) :: linear time complexity
 const isPrime = (n) => {
     if (n < 2) return false;
     for (let i=2; i<n; i++) {

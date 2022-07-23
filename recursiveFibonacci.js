@@ -1,4 +1,4 @@
-// Big-O = O(2pown)
+// Big-O = O(2pown) :: Cuadratic time complexity
 const recursiveFibonacci = (n) => {
     if (n < 2) { return n }
     return recursiveFibonacci(n-1) + recursiveFibonacci(n-2);

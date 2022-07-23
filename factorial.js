@@ -1,4 +1,4 @@
-// Big-O = O(n)
+// Big-O = O(n) :: linear time complexity
 const factorial = (n) => {
     let result = 1;
     for (let i=2; i<=n; i++) {
