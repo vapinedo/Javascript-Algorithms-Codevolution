@@ -15,3 +15,4 @@ Solving some algorithms, then try to calculate the Big-O complexity
 
 1. Linear search
 2. Binary search
+2. Recursive binary search
