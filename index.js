@@ -1,25 +1,17 @@
-// Big-O = O(logn) :: logirithmic time complexity
-const recursiveBinarySearch = (arr, target) => {
-  return search(arr, target, 0, arr.length - 1);
+// Big-O = O(n**2) :: Cuadractic time complexity
+const insertionSort = (arr) => {
+   for (let i=1; i<arr.length; i++) {
+    let numberToInsert = arr[i];
+    let j = i - 1;
+
+    while(j >= 0 && arr[j] > numberToInsert) {
+      arr[j + 1] = arr[j];
+      j = j - 1;
+    }
+    arr[j + 1] = numberToInsert;
+   }
 };
 
-const search = (arr, target, leftIndex, rightIndex) => {
-  if (leftIndex > rightIndex) {
-    return -1;
-  }
-
-  let middleIndex = Math.floor((leftIndex + rightIndex) / 2);
-  if (target === arr[middleIndex]) {
-    return middleIndex;
-  }
-
-  if (target < arr[middleIndex]) {
-    return search(arr, target, leftIndex, middleIndex - 1);
-  } else {
-    return search(arr, target, middleIndex + 1, rightIndex);
-  }
-};
-
-console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 10)); // 4
-console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 6)); // 3
-console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 20)); // -1
+const arr = [8, 20, -2, 4, -6];
+insertionSort(arr);
+console.log(arr); // [-6, -2, 4, 8, 20]
